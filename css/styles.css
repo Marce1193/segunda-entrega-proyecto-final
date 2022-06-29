@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to right, #DCF1F5 , #435a5f);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .header .header__div h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.container .header{
+    background-color: #5F8DD2;
+    color: #D6DBDC;
+    text-align: center;
+    padding: 10px 0px 0px;
+    border-radius: 10px;
+    grid-area: header;
+}
+
+.container .footer .footer__div ul li:hover {
+    background-color: #D6DBDC;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.container .article{
+    min-height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container .aside {
+    background-color: darkslategrey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+.container .widget-1,
+.container .widget-2{
+    background-color: #5F8DD2;
+    color: #D6DBDC;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container .footer .footer__div ul{
+    display: flex;
+    background-color: #1B2F46;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+
+}
